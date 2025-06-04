@@ -1,0 +1,7 @@
+PS C:\git_challenge> git init
+Initialized empty Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "1回目"
+[master (root-commit) 71dc505] 1回目
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
