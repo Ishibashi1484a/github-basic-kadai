@@ -1,7 +1,15 @@
-PS C:\git_challenge> git init
-Initialized empty Git repository in C:/git_challenge/.git/
-PS C:\git_challenge> git add hello_world.txt
-PS C:\git_challenge> git commit -m "1回目"
-[master (root-commit) 71dc505] 1回目
+PS C:\test\git_challenge> git init
+Initialized empty Git repository in C:/test/git_challenge/.git/
+PS C:\test\git_challenge> git add hello_world.txt
+PS C:\test\git_challenge> git commit -m "初回"
+[master (root-commit) 1ffa837] 初回
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
+PS C:\test\git_challenge> git add hello_world.txt
+PS C:\test\git_challenge> git commit -m "2回目"  
+[master 55c5177] 2回目
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\test\git_challenge> git log --oneline
+55c5177 (HEAD -> master) 2回目
+1ffa837 初回
+PS C:\test\git_challenge> 
