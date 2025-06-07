@@ -1,0 +1,100 @@
+body, h1, p {
+    margin: 0;
+}
+
+p,a{font-size: 20px;
+}
+
+header {
+    margin-bottom: 20px; 
+    background-color: rgb(244, 79, 79);
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+h1 {
+    color: rgb(255, 255, 255); 
+}
+
+main{
+  margin: 10px;
+}
+
+#parent{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contents{
+flex-basis: 25%;
+border: 3px solid rgb(238, 204, 204);
+padding: 10px 15px;
+margin: 20px 0;
+display: flex;
+justify-content: center; 
+align-items: center;
+writing-mode: horizontal-tb;
+direction: ltr;
+}
+
+h2{
+font-size: 25px;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+text-decoration-style: dotted;
+text-decoration-color: rgb(236, 122, 122); 
+}
+
+h2::before {
+  content: "●"; 
+  color: rgb(239, 111, 139);
+  margin-right: 8px; 
+}
+
+.contents p:nth-of-type(2)::first-letter {
+  font-weight: bold; 
+  color: rgb(97, 206, 249);
+}
+
+footer {
+  background-color: rgb(244, 79, 79); 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+a {
+  color: rgb(255, 255, 255); /* 通常 */
+  text-decoration: none; 
+}
+
+a:visited {
+  color: rgb(193, 234, 251); /* 訪問済み */
+}
+
+a:hover {
+  color: rgb(245, 178, 168); /* マウスカーソルが乗ったとき */
+}
+
+.contents img{
+  margin: 10px 0;
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px; 
+    }
+
+    p {
+        font-size: 25px; 
+    }
+
+    #parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}
