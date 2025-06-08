@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -19,33 +20,31 @@
         <a href="index.html#product">PRODUCT</a>
         <a href="index.html#contact">CONTACT</a>
       </nav>
-      <!-- スマホ用ナビゲーション -->
-       <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-         <img src="images/button-menu.png" alt="ナビゲーションを開く">
-       </button>
-          <nav>
-           <ul>
-             <li>
-               <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
-             </li>
-             <li><a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a></li>
-             <li><a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
-             <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
-           </ul>
-         </nav>
-         <div id="sns">
-           <a href="https://www.facebook.com/sejuku2013">
-             <img src="images/button-facebook.png" alt="Facebookのリンク">
-           </a>
-           <a href="https://twitter.com/samuraijuku">
-             <img src="images/button-twitter.png" alt="Twitterのリンク">
-           </a>
-           <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g">
-             <img src="images/button-youtube.png" alt="YouTubeのリンク">
-           </a>
-         </div>
-       </div>
     </header>
+          <!-- スマホ用メニューボタン -->
+      <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+
+      <!-- スマホ用ナビゲーション -->
+      <nav id="nav-sp">
+       <ul>
+         <li>
+           <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+         </li>
+         <li>
+           <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
+             <img src="images/logo-sp.png" alt="トップページに戻る">
+           </a>
+         </li>
+         <li>
+           <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+         </li>
+         <li>
+           <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+         </li>
+         <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+         </li>
+       </ul>
+     </nav>
 
     <main>
       <article>
