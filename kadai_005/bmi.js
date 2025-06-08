@@ -1,5 +1,5 @@
 let height;
-height =150;
+height =1.5;
 let weight;
 weight =50;
 let bmiCalculation;
