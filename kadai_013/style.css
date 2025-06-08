@@ -16,6 +16,11 @@ p {
 PC用のスタイル 
 =================*/
 @media screen and (min-width: 768px) {
+
+  /* スマホでは非表示に */
+  #nav-sp{
+    display: none;
+  }
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -77,7 +82,7 @@ PC用のスタイル
     margin: 0;
   }
 
-    /* ＰＣのナビゲーションを非表示に */
+  /* ＰＣのナビゲーションを非表示に */
   #nav-pc{
     display: none;
   }
