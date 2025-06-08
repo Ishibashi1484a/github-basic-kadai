@@ -32,11 +32,10 @@ flex-basis: 25%;
 border: 3px solid rgb(238, 204, 204);
 padding: 10px 15px;
 margin: 20px 0;
-display: flex;
-justify-content: center; 
-align-items: center;
-writing-mode: horizontal-tb;
-direction: ltr;
+/* display: flex; */
+/* justify-content: center; 
+align-items: center; */
+text-align: center;
 }
 
 h2{
