@@ -1,4 +1,4 @@
-function num2(num){
+function square(num){
   return num * num ;
 }
-console.log(num2); 
+console.log(square(5)); 
